@@ -1,0 +1,34 @@
+# Robots.txt pour le référencement optimal
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://votre-domaine.fr/sitemap.xml
+
+# Bloquer les fichiers système et de configuration
+Disallow: /css/
+Disallow: /js/
+Disallow: /.git/
+Disallow: /.htaccess
+
+# Optimisation crawl budget
+Crawl-delay: 0
+
+# Autoriser Google
+User-agent: Googlebot
+Allow: /
+
+# Autoriser Bing
+User-agent: Bingbot
+Allow: /
+
+# Bloquer les mauvais bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
