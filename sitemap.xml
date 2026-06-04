@@ -9,6 +9,14 @@
         <priority>1.0</priority>
     </url>
 
+    <!-- Test / Questionnaire de Berlin -->
+    <url>
+        <loc>https://www.xn--estaquesant-sommeil-lzb.fr/questionnaire-berlin.html</loc>
+        <lastmod>2026-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
     <!-- Blog -->
     <url>
         <loc>https://www.xn--estaquesant-sommeil-lzb.fr/blog/</loc>
