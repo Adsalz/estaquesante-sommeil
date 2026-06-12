@@ -8,7 +8,7 @@ Disallow: /.git/
 Disallow: /.htaccess
 
 # Sitemap
-Sitemap: https://www.xn--estaquesant-sommeil-lzb.fr/sitemap.xml
+Sitemap: https://xn--estaquesant-sommeil-lzb.fr/sitemap.xml
 
 # Bloquer les bots agressifs (économie de crawl budget)
 User-agent: AhrefsBot
