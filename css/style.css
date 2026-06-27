@@ -119,7 +119,7 @@ nav .container {
     border-bottom: 1px solid #e0e0e0;
 }
 
-.hero h2 {
+.hero h1, .hero h2 {
     font-size: 2.5rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
@@ -407,7 +407,7 @@ footer {
         display: block;
     }
 
-    .hero h2 {
+    .hero h1, .hero h2 {
         font-size: 2rem;
     }
 
@@ -428,7 +428,7 @@ footer {
         padding: 4rem 0 3rem;
     }
 
-    .hero h2 {
+    .hero h1, .hero h2 {
         font-size: 1.75rem;
     }
 
