@@ -4,55 +4,41 @@
     <!-- Page d'accueil -->
     <url>
         <loc>https://xn--estaquesant-sommeil-lzb.fr/</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <lastmod>2026-09-26</lastmod>
     </url>
 
-    <!-- Test / Questionnaire de Berlin -->
+    <!-- Médecins : adresser un patient -->
+    <url>
+        <loc>https://xn--estaquesant-sommeil-lzb.fr/adresser-un-patient</loc>
+        <lastmod>2026-09-26</lastmod>
+    </url>
+
+    <!-- Questionnaire de Berlin -->
     <url>
         <loc>https://xn--estaquesant-sommeil-lzb.fr/questionnaire-berlin</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <lastmod>2026-09-26</lastmod>
     </url>
 
     <!-- Blog -->
     <url>
         <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/comment-arreter-de-ronfler</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/apnee-sommeil-risques-cardiovasculaires</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/symptomes-apnee-sommeil</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <lastmod>2026-09-26</lastmod>
     </url>
     <url>
         <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/polygraphie-deroulement</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <lastmod>2026-09-26</lastmod>
+    </url>
+    <url>
+        <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/symptomes-apnee-sommeil</loc>
+        <lastmod>2026-09-26</lastmod>
     </url>
     <url>
         <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/ronflements-apnee</loc>
-        <lastmod>2026-06-12</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <lastmod>2026-09-26</lastmod>
+    </url>
+    <url>
+        <loc>https://xn--estaquesant-sommeil-lzb.fr/blog/apnee-sommeil-risques-cardiovasculaires</loc>
+        <lastmod>2026-09-26</lastmod>
     </url>
 
 </urlset>

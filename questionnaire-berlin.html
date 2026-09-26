@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Questionnaire de Berlin : testez gratuitement en ligne votre risque d'apnée du sommeil (SAOS). Résultat immédiat. Estaque Santé Sommeil, L'Estaque - Marseille 16e.">
+    <meta name="description" content="Questionnaire de Berlin : estimer le risque d'apnée du sommeil (SAHOS) en une dizaine de questions. Un résultat à montrer à votre médecin, qui n'est pas un diagnostic. L'Estaque, Marseille 16e.">
     <meta name="robots" content="index, follow">
-    <title>Test d'apnée du sommeil en ligne - Questionnaire de Berlin | Estaque Santé Sommeil</title>
+    <title>Questionnaire de Berlin : évaluer le risque d'apnée du sommeil | Estaque Santé Sommeil</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://xn--estaquesant-sommeil-lzb.fr/questionnaire-berlin">
     <meta name="theme-color" content="#2c5aa0">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Test d'apnée du sommeil en ligne - Questionnaire de Berlin">
-    <meta property="og:description" content="Évaluez gratuitement votre risque d'apnée du sommeil avec le questionnaire de Berlin. Résultat immédiat.">
+    <meta property="og:title" content="Questionnaire de Berlin : évaluer le risque d'apnée du sommeil">
+    <meta property="og:description" content="Un questionnaire validé pour estimer le risque d'apnée du sommeil. Le résultat n'est pas un diagnostic : il est à montrer à votre médecin.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:url" content="https://xn--estaquesant-sommeil-lzb.fr/questionnaire-berlin">
@@ -22,8 +22,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Test d'apnée du sommeil en ligne - Questionnaire de Berlin">
-    <meta name="twitter:description" content="Évaluez gratuitement votre risque d'apnée du sommeil. Résultat immédiat.">
+    <meta name="twitter:title" content="Questionnaire de Berlin : évaluer le risque d'apnée du sommeil">
+    <meta name="twitter:description" content="Un questionnaire validé pour estimer le risque d'apnée du sommeil, à montrer à votre médecin.">
     <meta name="twitter:image" content="https://xn--estaquesant-sommeil-lzb.fr/images/og-image.jpg">
 
     <link rel="icon" type="image/png" href="/images/favicon.png">
@@ -34,11 +34,11 @@
     {
         "@context": "https://schema.org",
         "@type": "MedicalWebPage",
-        "name": "Questionnaire de Berlin - Test d'apnée du sommeil",
-        "description": "Auto-évaluation du risque de syndrome d'apnées obstructives du sommeil (SAOS) à l'aide du questionnaire de Berlin.",
+        "name": "Questionnaire de Berlin : évaluer le risque d'apnée du sommeil",
+        "description": "Auto-évaluation du risque de syndrome d'apnées-hypopnées obstructives du sommeil (SAHOS) à l'aide du questionnaire de Berlin.",
         "about": {
             "@type": "MedicalCondition",
-            "name": "Syndrome d'apnées obstructives du sommeil"
+            "name": "Syndrome d'apnées-hypopnées obstructives du sommeil (SAHOS)"
         },
         "publisher": {
             "@type": "Organization",
@@ -63,7 +63,8 @@
                 <ul class="nav-menu">
                     <li><a href="/#apnee-sommeil">Apnée du Sommeil</a></li>
                     <li><a href="/#polygraphie">Polygraphie</a></li>
-                    <li><a href="/questionnaire-berlin">Dépistage</a></li>
+                    <li><a href="/questionnaire-berlin">Questionnaire</a></li>
+                    <li><a href="/adresser-un-patient">Médecins</a></li>
                     <li><a href="/blog/">Blog</a></li>
                     <li><a href="/#contact">Contact</a></li>
                 </ul>
@@ -79,15 +80,15 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1>Test d'apnée du sommeil en ligne – Questionnaire de Berlin</h1>
-                <p class="lead">Le questionnaire de Berlin permet d'évaluer en quelques minutes votre risque de souffrir d'un syndrome d'apnées obstructives du sommeil (SAOS). Répondez aux questions ci-dessous pour obtenir un résultat immédiat.</p>
+                <h1>Questionnaire de Berlin : évaluer le risque d'apnée du sommeil</h1>
+                <p class="lead">Le questionnaire de Berlin est un questionnaire validé qui estime le risque de syndrome d'apnées-hypopnées obstructives du sommeil (SAHOS). Il est parfois présenté comme un « test de l'apnée du sommeil » : il estime un risque, il ne pose pas de diagnostic.</p>
             </div>
         </section>
 
         <section class="content-section">
             <div class="container">
                 <div class="highlight-box">
-                    <p><strong>Important :</strong> ce test est un outil d'orientation, il ne constitue ni un diagnostic ni un avis médical. Seul un professionnel de santé peut établir un diagnostic, généralement après une polygraphie ventilatoire. En cas de doute, consultez.</p>
+                    <p><strong>Important :</strong> ce questionnaire est un outil de repérage. Il ne constitue ni un diagnostic ni un avis médical ; le diagnostic repose sur un examen du sommeil, le plus souvent une polygraphie ventilatoire. Vos réponses ne sont ni enregistrées ni transmises : le calcul se fait dans votre navigateur.</p>
                 </div>
 
                 <form id="berlin-form" novalidate>
@@ -127,8 +128,8 @@
 
                         <div class="quiz-q" data-cat="1">
                             <p class="quiz-label">5. Vous a-t-on déjà signalé des arrêts respiratoires pendant votre sommeil ?</p>
-                            <label><input type="radio" name="q5" value="1"> Presque tous les jours</label>
-                            <label><input type="radio" name="q5" value="1"> 3 à 4 fois par semaine</label>
+                            <label><input type="radio" name="q5" value="2"> Presque tous les jours</label>
+                            <label><input type="radio" name="q5" value="2"> 3 à 4 fois par semaine</label>
                             <label><input type="radio" name="q5" value="0"> 1 à 2 fois par semaine</label>
                             <label><input type="radio" name="q5" value="0"> 1 à 2 fois par mois</label>
                             <label><input type="radio" name="q5" value="0"> Jamais ou presque jamais</label>
@@ -204,8 +205,8 @@
 
         <section class="content-section alt-bg">
             <div class="container">
-                <h2>Que faire après ce test ?</h2>
-                <p>Quel que soit votre résultat, ce questionnaire ne remplace pas un avis médical. Si vous présentez des symptômes évocateurs (ronflements, fatigue, somnolence, pauses respiratoires observées), une consultation permet d'évaluer l'intérêt d'une <a href="/#polygraphie">polygraphie ventilatoire</a>, l'examen de référence pour diagnostiquer l'apnée du sommeil.</p>
+                <h2>Que faire après ce questionnaire ?</h2>
+                <p>Quel que soit votre résultat, ce questionnaire ne remplace pas un avis médical. Si vous avez des symptômes évocateurs (ronflements, fatigue, somnolence, pauses respiratoires constatées par l'entourage), parlez-en à votre médecin traitant : il peut vous prescrire une <a href="/#polygraphie">polygraphie ventilatoire</a>, examen de première intention en cas de suspicion d'apnée du sommeil. Une ordonnance de sa part suffit pour réaliser l'examen au cabinet, dans le parcours de soins.</p>
                 <div class="cta-buttons">
                     <a href="https://www.doctolib.fr/medecin-generaliste/marseille/adrien-salles/booking/motives?specialityId=2&amp;telehealth=false&amp;placeId=practice-146472&amp;motiveCategoryIds%5B%5D=498497&amp;profile_skipped=true&amp;source=external_referral" target="_blank" rel="noopener" class="btn btn-primary">Prendre rendez-vous sur Doctolib</a>
                     <a href="tel:+33488926931" class="btn btn-secondary">04 88 92 69 31</a>
@@ -217,7 +218,7 @@
     <footer>
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2024 Estaque Santé Sommeil</p>
+                <p>&copy; 2026 Estaque Santé Sommeil</p>
             </div>
         </div>
     </footer>
@@ -313,6 +314,10 @@
             color: #666;
         }
         .quiz-result .detail ul { margin-bottom: 1rem; }
+        @media print {
+            header, footer, .cta-buttons, .no-print, #berlin-form button, .alt-bg { display: none !important; }
+            .quiz-result { margin-top: 1rem; }
+        }
     </style>
 
     <script src="js/script.js"></script>
@@ -354,12 +359,12 @@
             }
             errorEl.hidden = true;
 
-            // --- Catégorie 1 : positive si >= 2 réponses positives (q1..q5) ---
+            // --- Catégorie 1 : positive si score >= 2 (q1..q5 ; q5 vaut 2 points) ---
             var cat1 = ['q1', 'q2', 'q3', 'q4', 'q5'].reduce(function (s, n) { return s + (val(n) || 0); }, 0);
             var cat1Pos = cat1 >= 2;
 
-            // --- Catégorie 2 : positive si >= 2 réponses positives (q6..q9) ---
-            var cat2 = ['q6', 'q7', 'q8', 'q9'].reduce(function (s, n) { return s + (val(n) || 0); }, 0);
+            // --- Catégorie 2 : positive si score >= 2 (q6..q8 ; q9 notée à part) ---
+            var cat2 = ['q6', 'q7', 'q8'].reduce(function (s, n) { return s + (val(n) || 0); }, 0);
             var cat2Pos = cat2 >= 2;
 
             // --- Catégorie 3 : positive si HTA = Oui OU IMC > 30 ---
@@ -386,15 +391,19 @@
             if (highRisk) {
                 html = '<h3>Risque élevé d\'apnée du sommeil</h3>'
                     + '<p>Vos réponses sont en faveur d\'un <strong>risque élevé</strong> de syndrome d\'apnées du sommeil (' + positives + ' catégories sur 3 positives).' + imcTxt + '</p>'
-                    + '<p>Il est recommandé d\'en parler à un médecin : un examen du sommeil (polygraphie ventilatoire) pourra être proposé pour confirmer ou écarter le diagnostic.</p>'
-                    + '<p><a href="https://www.doctolib.fr/medecin-generaliste/marseille/adrien-salles/booking/motives?specialityId=2&amp;telehealth=false&amp;placeId=practice-146472&amp;motiveCategoryIds%5B%5D=498497&amp;profile_skipped=true&amp;source=external_referral" target="_blank" rel="noopener"><strong>Prendre rendez-vous sur Doctolib</strong></a> &nbsp;ou&nbsp; <a href="tel:+33488926931"><strong>04 88 92 69 31</strong></a></p>';
+                    + '<p>Ce résultat n\'est pas un diagnostic. Parlez-en à votre médecin traitant : s\'il le juge utile, il peut vous prescrire une polygraphie ventilatoire, examen du sommeil réalisé à domicile.</p>'
+                    + '<p class="no-print"><button type="button" class="btn btn-secondary" onclick="window.print()">Imprimer ce résultat pour votre médecin</button></p>'
+                    + '<p class="no-print">À L\'Estaque (Marseille 16e), la polygraphie ventilatoire se fait au cabinet du Dr Salles sur ordonnance : <a href="/#polygraphie">informations pratiques</a>.</p>';
             } else {
                 html = '<h3>Risque faible d\'apnée du sommeil</h3>'
                     + '<p>Vos réponses sont en faveur d\'un <strong>risque faible</strong> (' + positives + ' catégorie' + (positives > 1 ? 's' : '') + ' sur 3 positive' + (positives > 1 ? 's' : '') + ').' + imcTxt + '</p>'
-                    + '<p>Si vous ressentez malgré tout une fatigue inexpliquée, des ronflements gênants ou une somnolence en journée, parlez-en à votre médecin.</p>';
+                    + '<p>Un résultat faible n\'exclut pas une apnée du sommeil. Si vous ressentez malgré tout une fatigue inexpliquée, des ronflements gênants ou une somnolence dans la journée, parlez-en à votre médecin.</p>';
+            }
+            if (val('q8') === 1) {
+                html += '<p>Vous avez indiqué avoir déjà somnolé ou vous être endormi(e) au volant : signalez-le à votre médecin.</p>';
             }
             html += '<div class="detail">' + cats
-                + '<p><em>Le questionnaire de Berlin est un outil de dépistage validé, mais il ne remplace pas un avis médical ni un examen du sommeil.</em></p></div>';
+                + '<p><em>Le questionnaire de Berlin est un questionnaire validé de repérage ; il ne remplace ni un avis médical ni un examen du sommeil.</em></p></div>';
 
             resultEl.className = 'quiz-result';
             resultEl.innerHTML = '<p class="eyebrow">Votre résultat</p>' + html;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Apnée du sommeil à L'Estaque (Marseille 16e) : diagnostic par polygraphie ventilatoire à domicile. Prise en charge pluriprofessionnelle, sur rendez-vous.">
-    <meta name="keywords" content="apnée du sommeil Marseille, polygraphie ventilatoire Marseille, Estaque Santé Sommeil, dépistage apnée sommeil, Marseille 13016, Marseille nord, CPAP, PPC, traitement apnée, consultation sommeil, kinésithérapeute sommeil">
+    <meta name="keywords" content="apnée du sommeil Marseille, polygraphie ventilatoire Marseille, Estaque Santé Sommeil, SAHOS, Marseille 13016, Marseille nord, CPAP, PPC, traitement apnée, consultation sommeil, kinésithérapeute sommeil">
     <meta name="author" content="Estaque Santé Sommeil">
     <meta name="geo.region" content="FR-13">
     <meta name="geo.placename" content="Marseille, L'Estaque">
@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://xn--estaquesant-sommeil-lzb.fr/">
     <meta property="og:site_name" content="Estaque Santé Sommeil">
 
-    <title>Estaque Santé Sommeil - Apnée du Sommeil et Polygraphie - L'Estaque Marseille</title>
+    <title>Apnée du sommeil : polygraphie ventilatoire à L'Estaque (Marseille 16e)</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://xn--estaquesant-sommeil-lzb.fr/">
@@ -28,29 +28,35 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "MedicalClinic",
-        "@id": "https://xn--estaquesant-sommeil-lzb.fr/#clinic",
-        "name": "Estaque Santé Sommeil",
+        "@type": "Physician",
+        "@id": "https://xn--estaquesant-sommeil-lzb.fr/#dr-salles",
+        "name": "Dr Adrien Salles",
+        "description": "Médecin généraliste. Polygraphie ventilatoire à domicile en cas de suspicion d'apnée du sommeil ; prescription et suivi du traitement par pression positive continue.",
+        "medicalSpecialty": "https://schema.org/PrimaryCare",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "RPPS",
+            "value": "10101207016"
+        },
         "image": "https://xn--estaquesant-sommeil-lzb.fr/images/og-image.jpg",
         "logo": "https://xn--estaquesant-sommeil-lzb.fr/images/logo.png",
-        "url": "https://xn--estaquesant-sommeil-lzb.fr",
+        "url": "https://xn--estaquesant-sommeil-lzb.fr/",
         "sameAs": [
-            "https://www.doctolib.fr/medecin-generaliste/marseille/adrien-salles",
-            "https://www.doctolib.fr/masseur-kinesitherapeute/marseille/mohamed-chedli-bouslama"
+            "https://www.doctolib.fr/medecin-generaliste/marseille/adrien-salles"
         ],
-        "telephone": "+33-4-88-92-69-31",
+        "telephone": "+33 4 88 92 69 31",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "2 Avenue de la Gare",
+            "streetAddress": "2 avenue de la Gare",
             "addressLocality": "Marseille",
-            "addressRegion": "L'Estaque",
+            "addressRegion": "Provence-Alpes-Côte d'Azur",
             "postalCode": "13016",
             "addressCountry": "FR"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 43.3617,
-            "longitude": 5.3073
+            "latitude": 43.363089,
+            "longitude": 5.321761
         },
         "openingHoursSpecification": [{
             "@type": "OpeningHoursSpecification",
@@ -58,7 +64,6 @@
             "opens": "09:00",
             "closes": "18:00"
         }],
-        "medicalSpecialty": "Troubles du Sommeil",
         "areaServed": [
             { "@type": "Place", "name": "L'Estaque, Marseille" },
             { "@type": "Place", "name": "Saint-Henri, Marseille" },
@@ -66,9 +71,14 @@
             { "@type": "Place", "name": "Marseille Nord" }
         ],
         "availableService": {
-            "@type": "MedicalProcedure",
-            "name": "Polygraphie Ventilatoire",
-            "description": "Dépistage et diagnostic de l'apnée du sommeil"
+            "@type": "DiagnosticProcedure",
+            "name": "Polygraphie ventilatoire (polygraphie respiratoire nocturne)",
+            "description": "Enregistrement nocturne à domicile pour le diagnostic de l'apnée du sommeil",
+            "code": {
+                "@type": "MedicalCode",
+                "codeValue": "GLQP007",
+                "codingSystem": "CCAM"
+            }
         },
         "amenityFeature": {
             "@type": "LocationFeatureSpecification",
@@ -88,21 +98,21 @@
             "name": "L'examen de polygraphie est-il remboursé ?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, la polygraphie ventilatoire est prise en charge par l'Assurance Maladie sur prescription médicale, dans le cadre du parcours de soins coordonnés."
+                "text": "Oui, dans le parcours de soins coordonnés. Une participation forfaitaire de 32 € reste à votre charge, sauf prise en charge à 100 % (affection de longue durée pour un acte en rapport, complémentaire santé solidaire, maternité…)."
             }
         }, {
             "@type": "Question",
             "name": "L'examen de polygraphie est-il douloureux ?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Non, la polygraphie est totalement indolore. Les capteurs sont simplement posés sur le corps et ne provoquent aucune gêne."
+                "text": "Non, l'examen est indolore. Les capteurs sont posés sur la peau et sous le nez."
             }
         }, {
             "@type": "Question",
             "name": "Combien de temps dure l'examen de polygraphie ?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "L'enregistrement se fait pendant le sommeil, généralement sur 1 à 2 nuits. Vous récupérez l'appareil au cabinet et le rapportez le lendemain."
+                "text": "Une nuit d'enregistrement. L'appareil est remis au cabinet et rapporté le lendemain ; une seconde nuit est parfois nécessaire si le premier enregistrement n'est pas exploitable."
             }
         }, {
             "@type": "Question",
@@ -111,35 +121,6 @@
                 "@type": "Answer",
                 "text": "Les résultats sont analysés sous 48 à 72h. Une consultation de restitution est ensuite programmée pour discuter du diagnostic et des options thérapeutiques."
             }
-        }]
-    }
-    </script>
-
-    <!-- Breadcrumbs Schema.org -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Accueil",
-            "item": "https://xn--estaquesant-sommeil-lzb.fr/"
-        }, {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Apnée du Sommeil",
-            "item": "https://xn--estaquesant-sommeil-lzb.fr/#apnee-sommeil"
-        }, {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Polygraphie Ventilatoire",
-            "item": "https://xn--estaquesant-sommeil-lzb.fr/#polygraphie"
-        }, {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Contact",
-            "item": "https://xn--estaquesant-sommeil-lzb.fr/#contact"
         }]
     }
     </script>
@@ -171,7 +152,8 @@
                 <ul class="nav-menu">
                     <li><a href="#apnee-sommeil">Apnée du Sommeil</a></li>
                     <li><a href="#polygraphie">Polygraphie</a></li>
-                    <li><a href="/questionnaire-berlin">Dépistage</a></li>
+                    <li><a href="/questionnaire-berlin">Questionnaire</a></li>
+                    <li><a href="/adresser-un-patient">Médecins</a></li>
                     <li><a href="/blog/">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -199,7 +181,7 @@
         <section id="apnee-sommeil" class="content-section">
             <div class="container">
                 <h2>L'Apnée du Sommeil</h2>
-                <p>Le Syndrome d'Apnées Obstructives du Sommeil (SAOS) est un trouble respiratoire caractérisé par des arrêts répétés de la respiration pendant le sommeil. Ces pauses respiratoires peuvent durer de 10 à 30 secondes et se reproduire plusieurs dizaines de fois par heure. Beaucoup de patients consultent car ils se sentent toujours fatigués malgré des nuits complètes, ou car leur conjoint observe des arrêts respiratoires pendant la nuit.</p>
+                <p>Le syndrome d'apnées-hypopnées obstructives du sommeil (SAHOS, aussi appelé SAOS) est un trouble respiratoire caractérisé par des arrêts répétés de la respiration pendant le sommeil. Ces pauses respiratoires peuvent durer de 10 à 30 secondes et se reproduire plusieurs dizaines de fois par heure. Beaucoup de patients consultent car ils se sentent toujours fatigués malgré des nuits complètes, ou car leur conjoint observe des arrêts respiratoires pendant la nuit.</p>
 
                 <h3>Symptômes</h3>
                 <ul class="symptom-list">
@@ -216,7 +198,7 @@
                 <p>Pour aller plus loin : <a href="/blog/symptomes-apnee-sommeil">reconnaître les symptômes de l'apnée du sommeil</a> et comprendre le <a href="/blog/ronflements-apnee">lien entre ronflements et apnée</a>.</p>
 
                 <div class="highlight-box">
-                    <p><strong>Suis-je concerné(e) ?</strong> Évaluez gratuitement votre risque en quelques minutes avec notre <a href="/questionnaire-berlin">test d'apnée du sommeil en ligne (questionnaire de Berlin)</a>.</p>
+                    <p>Le <a href="/questionnaire-berlin">questionnaire de Berlin</a>, questionnaire validé d'une dizaine de questions, permet d'estimer le risque d'apnée du sommeil. Son résultat n'est pas un diagnostic : il est à montrer à votre médecin.</p>
                 </div>
 
                 <h3>Complications possibles en l'absence de traitement</h3>
@@ -235,18 +217,18 @@
         <section id="polygraphie" class="content-section alt-bg">
             <div class="container">
                 <h2>La Polygraphie Ventilatoire</h2>
-                <p>La polygraphie ventilatoire est l'examen de référence pour le diagnostic de l'apnée du sommeil. Contrairement à la polysomnographie qui nécessite une hospitalisation, la polygraphie est réalisée à domicile, constituant ainsi une alternative à l'hospitalisation. Cet examen permet d'enregistrer plusieurs paramètres pendant le sommeil : respiration, oxygénation sanguine et rythme cardiaque.</p>
+                <p>La polygraphie ventilatoire est l'examen de première intention lorsqu'une apnée du sommeil est suspectée et qu'aucun autre trouble du sommeil n'est évoqué. Elle se fait à domicile, pendant une nuit, et enregistre la respiration, l'oxygénation du sang, la fréquence cardiaque, la position et le ronflement.</p>
 
                 <h3>Différence entre polygraphie et polysomnographie</h3>
-                <p>La polysomnographie est un examen plus complet réalisé en milieu hospitalier avec enregistrement de l'activité cérébrale. La polygraphie ventilatoire, réalisée à domicile, enregistre les paramètres respiratoires et cardiaques et suffit dans la majorité des cas pour diagnostiquer l'apnée du sommeil.</p>
+                <p>La polysomnographie enregistre en plus le sommeil lui-même (activité cérébrale, mouvements des yeux, tonus musculaire). C'est l'examen de référence ; elle se fait en laboratoire du sommeil ou en ambulatoire. Elle est proposée lorsque la polygraphie n'est pas adaptée ou ne permet pas de conclure.</p>
 
                 <h3>Déroulement de l'examen</h3>
                 <ol class="process-list">
-                    <li>Consultation initiale et évaluation des symptômes</li>
-                    <li>Remise de l'appareil et explications détaillées</li>
-                    <li>Enregistrement à domicile pendant 1 à 2 nuits</li>
-                    <li>Analyse des résultats et calcul de l'indice d'apnée-hypopnée (IAH) sous 48-72h</li>
-                    <li>Consultation de restitution avec explication du diagnostic et proposition thérapeutique adaptée</li>
+                    <li>Ordonnance de votre médecin traitant, ou consultation préalable</li>
+                    <li>Remise de l'appareil au cabinet, avec l'explication de la pose des capteurs</li>
+                    <li>Une nuit d'enregistrement à domicile ; l'appareil est rapporté le lendemain</li>
+                    <li>Analyse du tracé et calcul de l'indice d'apnées-hypopnées (IAH) sous 48 à 72 h</li>
+                    <li>Compte rendu adressé à votre médecin traitant ; consultation de résultats si un traitement est à discuter</li>
                 </ol>
                 <p>Voir le détail : <a href="/blog/polygraphie-deroulement">comment se déroule une polygraphie ventilatoire</a>.</p>
 
@@ -283,7 +265,7 @@
                 </ul>
 
                 <div class="highlight-box">
-                    <p>Examen à domicile, non invasif et indolore. Pris en charge par l'Assurance Maladie sur prescription médicale.</p>
+                    <p>Examen à domicile, non invasif et indolore. Si vous avez un médecin traitant, parlez-lui en d'abord : une ordonnance de sa part suffit pour réaliser l'examen dans le parcours de soins.</p>
                 </div>
             </div>
         </section>
@@ -355,6 +337,9 @@
                     Parking gratuit disponible</p>
 
                     <p style="margin-top: 1.5rem;"><a href="https://www.google.com/maps/dir/?api=1&destination=2+Avenue+de+la+Gare,13016+Marseille" target="_blank" rel="noopener" style="text-decoration: underline;">Itinéraire Google Maps</a></p>
+
+                    <h4>Médecins</h4>
+                    <p><a href="/adresser-un-patient" style="text-decoration: underline;">Adresser un patient pour une polygraphie ventilatoire</a></p>
                 </div>
             </div>
         </section>
@@ -364,16 +349,16 @@
                 <h2>Questions Fréquentes</h2>
                 <div class="faq-list">
                     <div class="faq-item">
-                        <h3>Faut-il une prescription médicale pour une polygraphie ?</h3>
-                        <p>Oui, une prescription médicale est nécessaire pour réaliser une polygraphie ventilatoire et bénéficier de sa prise en charge par l'Assurance Maladie. Si vous n'avez pas de prescription, une consultation préalable permettra de l'établir si l'examen est indiqué.</p>
+                        <h3>Faut-il une ordonnance pour une polygraphie ?</h3>
+                        <p>Pour que l'examen soit pris en charge dans le parcours de soins, il se fait sur orientation de votre médecin traitant : une ordonnance de sa part suffit. Sans ordonnance, une consultation préalable permet de vérifier l'indication. Hors parcours de soins coordonnés, la prise en charge par l'Assurance maladie est réduite.</p>
                     </div>
                     <div class="faq-item">
                         <h3>L'examen de polygraphie est-il remboursé ?</h3>
-                        <p>Oui, la polygraphie ventilatoire est prise en charge par l'Assurance Maladie sur prescription médicale, dans le cadre du parcours de soins coordonnés.</p>
+                        <p>Oui, dans le parcours de soins coordonnés. Une participation forfaitaire de 32 € reste à votre charge, sauf prise en charge à 100 % (affection de longue durée pour un acte en rapport, complémentaire santé solidaire, maternité…).</p>
                     </div>
                     <div class="faq-item">
                         <h3>Quelle est la différence entre polygraphie et polysomnographie ?</h3>
-                        <p>La polysomnographie est un examen plus complet réalisé en milieu hospitalier qui enregistre également l'activité cérébrale et les mouvements oculaires. La polygraphie ventilatoire, réalisée à domicile, se concentre sur les paramètres respiratoires et cardiaques. Elle suffit dans la majorité des cas pour diagnostiquer l'apnée du sommeil.</p>
+                        <p>La polysomnographie enregistre en plus le sommeil lui-même (activité cérébrale, mouvements des yeux, tonus musculaire) ; c'est l'examen de référence, réalisé en laboratoire du sommeil ou en ambulatoire. La polygraphie ventilatoire, réalisée à domicile, enregistre les paramètres respiratoires et cardiaques ; c'est l'examen de première intention lorsque l'apnée du sommeil est suspectée et qu'aucun autre trouble du sommeil n'est évoqué.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Comment se préparer à l'examen de polygraphie ?</h3>
@@ -381,11 +366,11 @@
                     </div>
                     <div class="faq-item">
                         <h3>L'examen de polygraphie est-il douloureux ?</h3>
-                        <p>Non, la polygraphie est totalement indolore. Les capteurs sont simplement posés sur le corps et ne provoquent aucune gêne.</p>
+                        <p>Non, l'examen est indolore. Les capteurs sont posés sur la peau et sous le nez.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Combien de temps dure l'examen de polygraphie ?</h3>
-                        <p>L'enregistrement se fait pendant le sommeil, généralement sur 1 à 2 nuits. Vous récupérez l'appareil au cabinet et le rapportez le lendemain.</p>
+                        <p>Une nuit d'enregistrement. L'appareil est remis au cabinet et rapporté le lendemain ; une seconde nuit est parfois nécessaire si le premier enregistrement n'est pas exploitable.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Quand reçoit-on les résultats de la polygraphie ?</h3>
@@ -415,6 +400,7 @@
                 <div class="footer-section">
                     <p><a href="#apnee-sommeil">Apnée du Sommeil</a><br>
                     <a href="#polygraphie">Polygraphie</a><br>
+                    <a href="/adresser-un-patient">Médecins : adresser un patient</a><br>
                     <a href="#contact">Contact</a></p>
                 </div>
                 <div class="footer-section">
@@ -427,7 +413,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Estaque Santé Sommeil</p>
+                <p>&copy; 2026 Estaque Santé Sommeil</p>
             </div>
         </div>
     </footer>

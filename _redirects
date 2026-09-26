@@ -1,11 +1,19 @@
+# Fichiers internes du dépôt : jamais servis publiquement
+/README.md /404.html 404!
+/README-SEO.md /404.html 404!
+
+# Anciennes adresses : redirections permanentes vers l'URL canonique
+/test-apnee-sommeil /questionnaire-berlin 301
+/blog/comment-arreter-de-ronfler /blog/ronflements-apnee 301
+/blog/comment-arreter-de-ronfler.html /blog/ronflements-apnee 301
+
 # Redirections pour les URLs sans extension .html
 /questionnaire-berlin /questionnaire-berlin.html 200
-/test-apnee-sommeil /questionnaire-berlin.html 200
+/adresser-un-patient /adresser-un-patient.html 200
 /mentions-legales /mentions-legales.html 200
 /politique-confidentialite /politique-confidentialite.html 200
 /blog /blog/index.html 200
 /blog/symptomes-apnee-sommeil /blog/symptomes-apnee-sommeil.html 200
 /blog/polygraphie-deroulement /blog/polygraphie-deroulement.html 200
 /blog/ronflements-apnee /blog/ronflements-apnee.html 200
-/blog/comment-arreter-de-ronfler /blog/comment-arreter-de-ronfler.html 200
 /blog/apnee-sommeil-risques-cardiovasculaires /blog/apnee-sommeil-risques-cardiovasculaires.html 200
